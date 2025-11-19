@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uploaded Files</title>
+</head>
+<body>
+<h1>Αποθηκευμένα Αρχεία</h1>
+<p>Εδώ θα εμφανίζονται τα αρχεία που έχουν ανέβει.</p>
+
+
+<!-- Placeholder: Θα χρειαστεί backend για να εμφανιστούν πραγματικά τα αρχεία -->
+<table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+    <tr>
+        <th>Filename</th>
+    </tr>
+    </thead>
+    <tbody id="filesTableBody">
+    <!-- Files will be inserted here -->
+    </tbody>
+</table>
+
+
+<script>
+    async function loadFiles() {
+    const response = await fetch('/files/list');
+    const files = await response.json();
+
+
+    const tbody = document.getElementById('filesTableBody');
+    tbody.innerHTML = '';
+
+
+    files.forEach(file => {
+    const row = document.createElement('tr');
+    row.innerHTML = `<td>${file}</td>`;
+    tbody.appendChild(row);
+    });
+    }
+
+
+    loadFiles();
+</script>
+
+
+<button onclick="window.location.href='index.html'">Πίσω</button>
+</body>
+</html>

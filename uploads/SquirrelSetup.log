@@ -1,0 +1,89 @@
+﻿12368> 2025-11-04 08:54:48> Program: Starting Squirrel Updater: --createShortcut Discord.exe --setupIcon C:\Users\ppap\AppData\Local\Discord\app.ico
+12368> 2025-11-04 08:54:48> ApplyReleasesImpl: About to create shortcuts for Discord.exe, rootAppDir C:\Users\ppap\AppData\Local\Discord
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: Creating shortcut for Discord.exe => C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc.\Discord.lnk
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: About to save shortcut: C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc.\Discord.lnk (target C:\Users\ppap\AppData\Local\Discord\Update.exe, workingDir C:\Users\ppap\AppData\Local\Discord\app-1.0.9213, args --processStart Discord.exe)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: Creating shortcut for Discord.exe => C:\Users\ppap\Desktop\Discord.lnk
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: About to save shortcut: C:\Users\ppap\Desktop\Discord.lnk (target C:\Users\ppap\AppData\Local\Discord\Update.exe, workingDir C:\Users\ppap\AppData\Local\Discord\app-1.0.9213, args --processStart Discord.exe)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: fixPinnedExecutables: newCurrentFolder: app-1.0.9213
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: File 'C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\LiveCaptions.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: File 'C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\Narrator.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: File 'C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\On-Screen Keyboard.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: File 'C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility\VoiceAccess.lnk' could not be converted into a valid ShellLink: System.IO.FileNotFoundException: The system cannot find the file specified. (Exception from HRESULT: 0x80070002)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: Updating shortcut C:\Users\ppap\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: File 'C:\Users\ppap\Desktop\IEP.lnk' could not be converted into a valid ShellLink: System.Runtime.InteropServices.COMException (0x800705B4): This operation returned because the timeout period expired. (Exception from HRESULT: 0x800705B4)
+   at Squirrel.Shell.ShellLink.IShellLinkW.Resolve(IntPtr hWnd, UInt32 fFlags)
+   at Squirrel.Shell.ShellLink.Open(String linkFile, IntPtr hWnd, EShellLinkResolveFlags resolveFlags, UInt16 timeOut)
+   at Squirrel.UpdateManager.ApplyReleasesImpl.<fixPinnedExecutables>b__11_0(FileInfo file)
+12368> 2025-11-04 08:54:49> ApplyReleasesImpl: Updating shortcut C:\Users\ppap\Desktop\Discord.lnk
+9908> 2025-11-04 10:11:54> Program: Starting Squirrel Updater: --processStart Discord.exe
+9908> 2025-11-04 10:11:54> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+8584> 2025-11-04 10:29:02> Program: Starting Squirrel Updater: --processStart Discord.exe
+8584> 2025-11-04 10:29:02> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+8016> 2025-11-04 10:31:43> Program: Starting Squirrel Updater: --processStart Discord.exe
+8016> 2025-11-04 10:31:43> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12908> 2025-11-04 10:33:30> Program: Starting Squirrel Updater: --processStart Discord.exe
+12908> 2025-11-04 10:33:30> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+13080> 2025-11-04 10:39:18> Program: Starting Squirrel Updater: --processStart Discord.exe
+13080> 2025-11-04 10:39:18> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+13052> 2025-11-04 10:45:36> Program: Starting Squirrel Updater: --processStart Discord.exe
+13052> 2025-11-04 10:45:36> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+7004> 2025-11-04 10:52:01> Program: Starting Squirrel Updater: --processStart Discord.exe
+7004> 2025-11-04 10:52:01> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12504> 2025-11-04 13:12:38> Program: Starting Squirrel Updater: --processStart Discord.exe
+12504> 2025-11-04 13:12:38> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12228> 2025-11-04 13:16:56> Program: Starting Squirrel Updater: --processStart Discord.exe
+12228> 2025-11-04 13:16:56> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12488> 2025-11-04 13:24:23> Program: Starting Squirrel Updater: --processStart Discord.exe
+12488> 2025-11-04 13:24:23> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+2436> 2025-11-04 13:27:04> Program: Starting Squirrel Updater: --processStart Discord.exe
+2436> 2025-11-04 13:27:04> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+3244> 2025-11-04 13:33:18> Program: Starting Squirrel Updater: --processStart Discord.exe
+3244> 2025-11-04 13:33:18> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+6364> 2025-11-04 13:40:19> Program: Starting Squirrel Updater: --processStart Discord.exe
+6364> 2025-11-04 13:40:19> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12616> 2025-11-04 13:43:19> Program: Starting Squirrel Updater: --processStart Discord.exe
+12616> 2025-11-04 13:43:19> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+17460> 2025-11-05 08:59:28> Program: Starting Squirrel Updater: --processStart Discord.exe
+17460> 2025-11-05 08:59:28> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12472> 2025-11-05 12:46:00> Program: Starting Squirrel Updater: --processStart Discord.exe
+12472> 2025-11-05 12:46:00> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+11424> 2025-11-06 09:01:14> Program: Starting Squirrel Updater: --processStart Discord.exe
+11424> 2025-11-06 09:01:14> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+17912> 2025-11-07 09:03:07> Program: Starting Squirrel Updater: --processStart Discord.exe
+17912> 2025-11-07 09:03:07> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+12636> 2025-11-07 12:16:16> Program: Starting Squirrel Updater: --processStart Discord.exe
+12636> 2025-11-07 12:16:16> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+7032> 2025-11-10 09:03:47> Program: Starting Squirrel Updater: --processStart Discord.exe
+7032> 2025-11-10 09:03:47> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+6492> 2025-11-10 11:09:33> Program: Starting Squirrel Updater: --processStart Discord.exe
+6492> 2025-11-10 11:09:33> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+18864> 2025-11-11 09:02:55> Program: Starting Squirrel Updater: --processStart Discord.exe
+18864> 2025-11-11 09:02:55> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+14008> 2025-11-12 09:01:49> Program: Starting Squirrel Updater: --processStart Discord.exe
+14008> 2025-11-12 09:01:49> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+15284> 2025-11-13 09:07:12> Program: Starting Squirrel Updater: --processStart Discord.exe
+15284> 2025-11-13 09:07:12> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9213\Discord.exe': 
+2224> 2025-11-14 09:13:11> Program: Starting Squirrel Updater: --processStart Discord.exe
+2224> 2025-11-14 09:13:11> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9214\Discord.exe': 
+10452> 2025-11-14 16:26:01> Program: Starting Squirrel Updater: --processStart Discord.exe
+10452> 2025-11-14 16:26:01> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9214\Discord.exe': 
+16616> 2025-11-17 09:04:03> Program: Starting Squirrel Updater: --processStart Discord.exe
+16616> 2025-11-17 09:04:03> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9214\Discord.exe': 
+8> 2025-11-18 09:04:09> Program: Starting Squirrel Updater: --processStart Discord.exe
+8> 2025-11-18 09:04:09> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9214\Discord.exe': 
+3524> 2025-11-19 09:06:25> Program: Starting Squirrel Updater: --processStart Discord.exe
+3524> 2025-11-19 09:06:25> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9214\Discord.exe': 
+10884> 2025-11-19 09:06:41> Program: Starting Squirrel Updater: --processStart Discord.exe
+10884> 2025-11-19 09:06:41> Program: About to launch: 'C:\Users\ppap\AppData\Local\Discord\app-1.0.9214\Discord.exe': 

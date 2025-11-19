@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload Form</title>
+</head>
+<body>
+<h1>Ανέβασμα Αρχείου</h1>
+<form id="uploadForm" enctype="multipart/form-data">
+    <label for="fileInput">Επιλογή αρχείου:</label>
+    <input type="file" id="fileInput" name="uploadedFile" />
+    <br><br>
+    <button type="submit">Upload</button>
+</form>
+
+<p id="message"></p>
+
+<script>
+    document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const fileInput = document.getElementById("fileInput");
+        const formData = new FormData();
+        formData.append("uploadedFile", fileInput.files[0]);
+
+        const response = await fetch("/files/upload", {
+            method: "POST",
+            body: formData
+        });
+
+        const message = document.getElementById("message");
+
+        if (response.ok) {
+            message.style.color = "green";
+            message.innerText = "✔ File uploaded successfully!";
+        } else {
+            message.style.color = "red";
+            message.innerText = "✖ Upload error!";
+        }
+    });
+</script>
+
+
+<button onclick="window.location.href='view_files.html'">View Files</button>
+</body>
+</html>
